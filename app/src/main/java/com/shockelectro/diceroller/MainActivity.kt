@@ -36,7 +36,9 @@ class MainActivity : AppCompatActivity() {
             5 -> R.drawable.dice_5
             else -> R.drawable.dice_6
         }
+        //Conecta Objeto con Xml
         val diceImage: ImageView= findViewById(R.id.dice_image)
+        // Cambia la imagen dice1 -- dice 2
         diceImage.setImageResource(drawableResource)
     }
 }
